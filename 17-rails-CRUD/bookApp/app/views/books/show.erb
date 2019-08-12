@@ -1,0 +1,4 @@
+<p> <%= @book.title %> </p>
+<p> <%= @book.author %></p>
+<p> <%= @book.snippet %> </p>
+<h4><%= link_to "Delete", book_path(@book.id), method: :delete %><br/></h4>
