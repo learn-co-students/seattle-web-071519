@@ -1,0 +1,5 @@
+<%# Practiced accessing Brew from Purchase in the console with Purchase.all.first.brew.blend_name %>
+<%= link_to @purchase.brew.blend_name, brew_path(@purchase.brew) %>
+
+<%= @purchase.customer_name %>
+<%= @purchase.price %>

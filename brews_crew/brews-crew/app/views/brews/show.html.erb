@@ -1,0 +1,11 @@
+<%= @brew.blend_name %>
+<%= @brew.origin %>
+<%= @brew.notes %>
+<%= @brew.strength %>
+
+<h4>Customers : </h4>
+<ul>
+  <% @customers.each do |customer| %>
+    <li><%= customer %></li>
+  <% end %>
+</ul>
