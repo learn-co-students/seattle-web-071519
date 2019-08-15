@@ -1,0 +1,14 @@
+<%= form_for @brew do |b| %>
+<!-- <label>New Coffee</label> -->
+<%= b.label :blend_name %>
+<%= b.text_field :blend_name %><br>
+<!-- <label>Origin</label> -->
+<%= b.label :origin %>
+<%= b.text_field :origin %><br>
+<%= b.label :notes%>
+<!-- <label>Origin</label> -->
+<%= b.text_area :notes %><br>
+<%= b.label :strength %>
+<%= b.text_field :strength %>
+<%= b.submit %>
+<% end %>
